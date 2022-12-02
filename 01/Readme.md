@@ -1,4 +1,6 @@
-﻿elf 0
+﻿# Console output
+
+elf 0
         20576 21113 1865
         Total: 43554
 
