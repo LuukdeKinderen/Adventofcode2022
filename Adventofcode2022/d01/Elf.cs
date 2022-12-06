@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01
+namespace d01
 {
     public class Elf
     {
-        public List<int> snacks = new List<int>();
+        public List<int> snacks { get; set; } = new();
 
         public int TotalCalories => snacks.Sum();
 

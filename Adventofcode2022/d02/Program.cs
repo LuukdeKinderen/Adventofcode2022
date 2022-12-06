@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            string[] lines = File.ReadAllLines("Input.txt");
+            string[] lines = File.ReadAllLines("D02.txt");
             PartOne(lines);
             PartTwo(lines);
         }

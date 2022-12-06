@@ -1,11 +1,11 @@
-﻿namespace _01
+﻿namespace d01
 {
-    internal class Program
+    public class D01
     {
-        public static List<Elf> elves = new List<Elf>();
-        static void Main(string[] args)
+        private static readonly List<Elf> elves = new();
+        public static void Start()
         {
-            string[] lines = File.ReadAllLines("Input.txt");
+            string[] lines = File.ReadAllLines("D01.txt");
 
 
             Elf current = new Elf();
@@ -58,6 +58,5 @@
             Console.WriteLine($"\tTotal: {elf.TotalCalories}");
             Console.WriteLine();
         }
-
     }
 }
