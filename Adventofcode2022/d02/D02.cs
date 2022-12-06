@@ -11,7 +11,7 @@ namespace d02
 
         public static void Start()
         {
-            string[] lines = File.ReadAllLines("d2.txt");
+            string[] lines = File.ReadAllLines("D02.txt");
             PartOne(lines);
             PartTwo(lines);
         }
