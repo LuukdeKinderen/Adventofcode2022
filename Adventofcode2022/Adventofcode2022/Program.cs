@@ -5,6 +5,7 @@ using d04;
 using d05;
 using d06;
 using d07;
+using d08;
 
 namespace Adventofcode2022
 {
@@ -18,7 +19,8 @@ namespace Adventofcode2022
             //D04.Start();
             //D05.Start();
             //D06.Start();
-            D07.Start();
+            //D07.Start();
+            D08.Start();
         }
     }
 }
